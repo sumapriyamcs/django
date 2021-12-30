@@ -1,0 +1,6 @@
+#n = int(input("Enter the score"))
+arr = map(int, input("Enter scores").split())
+#print(arr)
+#print(list(arr))
+#print(list(set(arr)))
+print(sorted(list(set(arr)))[-2])

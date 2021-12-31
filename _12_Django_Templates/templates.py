@@ -19,7 +19,7 @@ and allows us to build dynamic web pages.
 
 To configure the template system, we have to provide some entries in settings.py file.
 
-TEMPLATES = [
+templates = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR,'templates')],
